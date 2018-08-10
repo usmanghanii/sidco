@@ -1,0 +1,86 @@
+nav li {
+	background:#84b7bb;
+}
+nav li a,
+nav li a:link,
+nav li a:visited, 
+nav li {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+nav li a,
+nav li a:link,
+nav li a:visited{
+    padding-left: 10px;
+}
+nav li p {
+    padding:0 0 0 10px;
+    margin:0;
+}
+
+.mobile nav li a,
+.mobile nav li a:link,
+.mobile nav li a:visited,
+.tablet nav li a,
+.tablet nav li a:link,
+.tablet nav li a:visited {
+	background-color:#84b7bb;
+}
+.mobile nav li ul.submenu li a,
+.mobile nav li ul.submenu li a:link,
+.mobile nav li ul.submenu li a:visited,
+.tablet nav li ul.submenu li a,
+.tablet nav li ul.submenu li a:link,
+.tablet nav li ul.submenu li a:visited {
+	background-color:#AAAAAA;
+}
+
+nav li a:hover {
+    background-color: #babaa6;
+}
+nav li.expand a:hover {
+    background-color: #84b7bb;
+}
+nav li a.active {
+	background:#AAAAAA;	
+}
+.mobile nav ul li a:hover, 
+.tablet nav ul li a:hover {
+	background:#777777;
+}	
+.mobile nav ul li a.arrow:hover, 
+.tablet nav ul li a.arrow:hover {
+	background:#777777 url("../images/nav_arrow.png") no-repeat scroll 95% 50%;
+}
+nav li ul.submenu li {
+    margin: 0px;
+    font-size: 1.0em;
+	background: #aaaaaa;
+}
+nav li ul.submenu li:hover,
+nav li ul.submenu li:hover a:hover {
+	background-color: #babaa6;
+}
+.standard nav li ul.submenu li a.arrow,
+.standard nav li ul.submenu li a.arrow:hover {
+	background: url("../images/left_arrow.png") no-repeat scroll 90% 50% #babaa6;
+}
+.mobile nav li ul.submenu li:hover,
+.mobile nav li ul.submenu li a:hover,
+.tablet nav li ul.submenu li:hover,
+.tablet nav li ul.submenu li a:hover {
+	background: #babaa6;
+}
+/*.mobile nav li ul.submenu li:hover a.arrow,
+.mobile nav li ul.submenu li a.arrow:hover,
+.tablet nav li ul.submenu li:hover a.arrow,
+.tablet nav li ul.submenu li a.arrow:hover {
+	background: url("../images/nav_arrow.png") no-repeat scroll 95% 50% #babaa6;
+}*/
+button.search {
+    background: #9C9C9C;
+}
+footer {
+	background:#777777;	
+}
